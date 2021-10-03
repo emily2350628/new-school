@@ -1,0 +1,34 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: Helvetica;
+}
+header{
+    height: 4rem;
+}
+.header--logo{
+    display: flex;
+    margin-left: 1.5rem;
+}
+.logo img{
+    height: 2rem;
+}
+.header--logo-words{
+    text-transform: uppercase;
+}
+.header--logo-words .gray{
+    color: gray;
+}
+nav li{
+    display: inline-block;
+    margin: auto 1rem;
+}
+header{
+    display: flex;
+    width: 100%;
+}
+ul{
+    position: relative;
+    left: 32rem;
+}
